@@ -1,6 +1,6 @@
 # Sistema Interativo de Cadastro de Produtos em Java
 
-Este projeto é um sistema de console simples e interativo para gerenciar um estoque de produtos. O usuário pode cadastrar, listar e remover produtos através de um menu no terminal.
+Este projeto é um simples sistema de cadastro de produtos, criado na linguagem de programação Java, tendo funções como adição de produtos, listagem de produtos, remoção e outros.
 
 ##  Pilares da POO Aplicados
 
@@ -13,10 +13,10 @@ O projeto foi construído para demonstrar os 4 pilares da Programação Orientad
 
 ## Estrutura das Classes
 
--   `Produto.java`: A classe base (molde) para todos os produtos.
--   `ProdutoPerecivel.java`: A classe especializada que herda de `Produto`.
--   `Estoque.java`: A classe que gerencia a lista de produtos (adicionar, remover, listar).
--   `Main.java`: Contém o menu interativo (`while` loop), o `Scanner` para ler a entrada do usuário e a lógica (`switch`) para chamar as operações do estoque.
+-   `Produto`: A classe base (molde) para todos os produtos.
+-   `ProdutoPerecivel`: A classe especializada que herda de `Produto`.
+-   `Estoque`: A classe que gerencia a lista de produtos (adicionar, remover, listar).
+-   `Main`: Contém o menu interativo (`while` loop), o `Scanner` para ler a entrada do usuário e a lógica (`switch`) para chamar as operações do estoque.
 
 ## Como Executar
 
